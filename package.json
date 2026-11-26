@@ -1,0 +1,31 @@
+{
+  "name": "diabolo-strobe-composer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "空竹花样频闪分解图自动合成工具",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "tsx bench/bench.ts"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "mp4box": "^2.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.3",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  }
+}
